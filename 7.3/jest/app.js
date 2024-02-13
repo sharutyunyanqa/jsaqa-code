@@ -1,3 +1,5 @@
+exports.sortByName= sortByName;
+
 function sortByName(inputArray) {
   inputArray.sort(function (a, b) {
     var nameA = a.toLowerCase(),
